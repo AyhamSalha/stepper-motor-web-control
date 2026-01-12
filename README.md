@@ -81,6 +81,18 @@ User → Web Interface → ESP32 → Stepper Driver → Stepper Motor
 
 ---
 
+## � Project Gallery
+
+### Experimental Setup (Versuchsaufbau)
+
+![System Assembly](images/assembly.png)
+*Complete system setup with ESP32, stepper motor, and mechanical components*
+
+![Web Interface](images/web-interfaces.png)
+*Browser-based control interface*
+
+---
+
 ## 📁 Repository Structure
 
 ```
@@ -88,6 +100,7 @@ stepper-motor-web-control/
 ├── firmware/      # ESP32 firmware (PlatformIO)
 ├── hardware/      # Schematics, wiring, mechanical parts
 ├── web/           # Web interface (HTML, CSS, JS)
+├── images/        # Project photos and setup images
 ├── docs/          # Documentation and usage
 ├── README.md
 └── .gitignore
