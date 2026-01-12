@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+  <h2>Parameter eingeben</h2>
+  <form action="/submit">
+    <label for="distance">Strecke (max 30cm): <span id="distanceVal">10</span> cm</label>
+    <input type="range" id="distance" name="distance" min="1" max="30" value="10" oninput="distanceVal.innerText=this.value">
+    <label for="runden">Runden (max 10): <span id="rundenVal">2</span></label>
+    <input type="range" id="runden" name="runden" min="1" max="10" value="1" oninput="rundenVal.innerText=this.value">
+    <label for="speed">Geschwindigkeit: <span id="speedVal">5</span></label>
+    <input type="range" id="speed" name="speed" min="1" max="10" value="5" oninput="speedVal.innerText=this.value">
+    <button type="submit">Senden</button>
+  </form>
+  <p class="signature">Ayham Salha</p>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
